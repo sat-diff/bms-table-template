@@ -1,5 +1,5 @@
 {
 "name" : "Sat難易度表",
 "symbol" : "S",
-"data_url" : "ここにJSONのURL"
+"data_url" : "https://sat-diff.github.io/sat-bms-difficulty/"
 }
