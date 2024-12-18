@@ -88,14 +88,15 @@
 
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
-                    str.appendTo(obj);
-                    count++;
-
+                  
                     //dl_url
                      $("<td width='5%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .url_diff + "' target='_blank'>" + DL "</a></td>").appendTo(str);
+                      str.appendTo(obj);
+                    count++;
+
 
                 }
                 $("</tbody>").appendTo(obj);
